@@ -44,7 +44,7 @@
                         bindings = <
    &kp LALT  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp TILDE
    &kp LC(A)  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp TAB
-   &kp LSHFT  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(V)    &trans         &trans  &kp LEFT_ARROW  &kp UP_ARROW &kp RIGHT_ARROW  &kp DOWN_ARROW &kp ESC
+   &kp LSHFT  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(V)    &trans         &trans  &kp LEFT_ARROW  &kp UP_ARROW &kp RIGHT  &kp DOWN  &kp ESC
                           	            &kp LGUI     &trans       &kp SPACE      &kp RET   &kp RA(GRAVE)   &kp BSPC
                         >;
                 };

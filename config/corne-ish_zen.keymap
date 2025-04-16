@@ -39,13 +39,13 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | ESC  |
 // |   ~  |  !  |  @  |  #  |  $  |  ?  |   | LFT | DWN |  UP | RGT |  (  |   )  |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+// | SHFT |     |     |     |     |     |   |     | LFT | DWN | RGT |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp ESC
-   &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp RS(FSLH)   &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp LPAR &kp RPAR
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp RS(FSLH)      &trans  &trans  &kp UP  &trans  &kp LPAR  &kp RPAR
+   &kp LSHFT  &trans       &trans       &trans       &trans       &trans  &kp LEFT  &kp DOWN  &kp RIGHT &trans    &trans &trans
+                          	       &trans   &trans   &trans      &trans  &trans  &trans
                         >;
                 };
 

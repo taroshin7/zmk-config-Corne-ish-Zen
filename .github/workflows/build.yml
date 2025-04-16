@@ -10,7 +10,7 @@ jobs:
     name: Build
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Cache west modules
         uses: actions/checkout@v4
         env:
@@ -43,7 +43,7 @@ jobs:
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 corneish_zen_left.uf2
       - name: Archive (Corne-ish Zen Left)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           name: firmware
           path: corneish_zen_left.uf2
